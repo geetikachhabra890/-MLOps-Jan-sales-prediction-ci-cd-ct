@@ -14,6 +14,18 @@ uvicorn app:app --reload --host 0.0.0.0 --port 8000
 above method to run locally and below to create docker image
 -------------
 
+git init
+git status
+git add . // to make them in track
+git status // check if all files moved to track
+git commit -m "first commit"
+git log 
+// make repository by pasting folder name
+// git remote add git remote add origin https://github.com/geetikachhabra890/-MLOps-Jan-sales-prediction-ci-cd-ct.git
+//git branch -M main
+//git push -u origin main
+git pull
+-- this is first stage of git, create git directory 
 docker build -t sales-app:latest .
 
 docker run -p 8000:8000 sales-app:latest
